@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/logoa.jpg">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>LearnWeb3</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="images/icon/logof.jpg" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#domains_section">Domains</a></li>
+				<li><a href="#quiz_section">Quiz</a></li>
+				<li><a href="#resources_section">Resources</a></li>
+				<li><a href="#video_section">Video</a></li>
+				<li><a href="#footer_section">Contact</a></li>
+			
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<h1>Explore the avenues of WEB 3.0</h1>
+				<h5>Web 3.0, also known as the Semantic Web or Web of Data, is a term used to describe the next generation of the World Wide Web.<br>Web 3.0 allows users to search and combine related data in new and exciting ways.
+				</h5>
+				
+			</div>
+			<div class="svg-image">
+				<img src="images/extra/logoa.jpg" alt="svg">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			<div class="user">
+				<img src="images/creator/roshan.jpeg" alt="Username">
+				<p>ScaleUp</p>
+			</div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#quiz_section">Quiz</a></li>
+				<li><a href="#resources_section">Resources</a></li>
+				<li><a href="#domains_section">Domains</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+				<li><a href="#footer_section">Contact</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">About</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="images/extra/KA.jpg">
+				</div>
+				<div class="side-text">
+					<h2>What on earth is WEB 3.0 ???</h2>
+					<p>Web3 is distinct from Tim Berners-Lee's 1999 concept for a Semantic Web.In 2006, Berners-Lee described the Semantic Web as a component of Web 3.0, which is different from the meaning of Web3 in blockchain contexts.<br> Web3 (also known as Web 3.0) is an idea for a new iteration of the World Wide Web which incorporates concepts such as decentralization, blockchain technologies, and token-based economics.<br>The term "Web3" was coined in 2014 by Ethereum co-founder <B>Gavin Wood</B>.</p>
+				</div>
+		</div>
+	</div>
+<!-- Some Popular Subjects -->
+	<div class="title" id="domains_section">
+		<center><p style="font-size: 50px; padding: 100px">Explore the different Domains</p></center>
+	</div>
+	<br><br>
+	<div class="course" id="#domains_section">
+		<center><div class="cbox">
+		<div class="det"><a href="https://en.wikipedia.org/wiki/Decentralization"><img src="images/courses/book.png">Decentralized Data</a></div>
+		<div class="det"><a href=""><img src="images/courses/d1.png">Open Source</a></div>
+		<div class="det"><a href=""><img src="images/courses/paper.png">Blockchain</a></div>
+		<div class="det"><a href=""><img src="images/courses/d1.png">Artificial intelligence</a></div>
+		<div class="det"><a href=""><img src="images/courses/computer.png">metaverse</a></div>	
+		</div>
+
+	
+<!-- QUIZ SECTION -->
+	<div class="diffSection" id="quiz_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Quiz time</p></center>
+		<div class="content">
+			<p>
+				“<i>There is no end to education. It is not that you read a book, pass an examination, and finish with education. The whole of life, from the moment you are born to the moment you die, is a process of learning.” — <B>Jiddu Krishnamurti</B></i>"
+			</p>
+		</div>
+	</div>
+
+
+<!-- Daily questions  -->
+<div class="extra">
+	<p>What is another name some people use for web 3.0 ?</p>
+	<div class="smbox">
+	<span><center><div class="data">The Semantic Web</div></center></span>
+	<span><center><div class="data">The interwebs</div></center></span>
+	<span><center><div class="data">WiMAX</div></center></span>
+	</div>
+</div>
+
+
+
+
+
+<!-- RESOURCES -->
+	<div class="service-swipe">
+		<div class="diffSection" id="resources_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Resources You must check out</p></center>
+		</div>
+\		<a href="https://en.wikipedia.org/wiki/Decentralization"><div class="s-card"><img src="images/icon/brainbooster.png"><p>Resource 1</p></div></a>
+		<a href="#"><div class="s-card"><img src="images/icon/online-tutorials.png"><p>Resource 2</p></div></a>
+		<a href="https://en.wikipedia.org/wiki/Decentralization"><div class="s-card"><img src="images/icon/papers.jpg"><p>Resource 3</p></div></a>
+		<a href="#"><div class="s-card"><img src="images/icon/p3.png"><p>Resource 4</p></div></a>
+		</div>
+
+
+
+<!-- video section -->
+	<div class="title2" id="video_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Watch an Intro Video</p></center>
+	</div>
+
+	<div class="feedbox">
+		<div class="feed">
+			<img src="images\video_place_holder.png" style="width: 100%">
+		</div>
+	</div>
+
+
+<!-- FOOTER -->
+	<footer id="footer_section">
+		<div class="footer-container">
+			<div class="left-col">
+				<h1 style="color: #fff">Search a topic you like</h1>
+				<div class="border"></div><br>
+		
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter enter any web 3.0 topic you would like to know about">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+				<img src="images/icon/logo - Copy.png" style="width: 200px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="images/icon\fb.png"></a>
+					<a href="#"><img src="images/icon\insta.png"></a>
+					<a href="#"><img src="images/icon\tt.png"></a>
+					<a href="#"><img src="images/icon\ytube.png"></a>
+					<a href="#"><img src="images/icon\linkedin.png"></a>
+				</div><br><br>
+				<p class="rights-text">Copyright © 2023 Created By Erum meraj , Kushal Agarwal All Rights Reserved.</p>
+				<br><p><img src="images/icon/location.png">IIT PATNA<br>Bihta , Bihar</p><br>
+				<p><img src="images/icon/phone.png"> +91-1234-567-890<br><img src="images/icon/mail.png">&nbsp; abcdefgh123@gmail.com</p>
+			</div>
+			<div class="right-col">
+				
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
